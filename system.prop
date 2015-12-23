@@ -22,7 +22,8 @@ ro.emmc.sdcard.partition=17
 ro.ril.transmitpower=true
 
 # Fields for custom RIL
-telephony.lteOnGsmDevice=1
+telephony.lteOnGsmDevice=0
+ro.telephony.default_network=3
 
 # System prop for qmi adb log
 persist.radio.adb_log_on=1
