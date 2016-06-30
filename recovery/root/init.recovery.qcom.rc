@@ -1,3 +1,7 @@
+on init
+    # SuperSU systemless root support
+    export BOOTIMAGE=/dev/block/mmcblk0p8
+
 on boot
     # Enable Power modes and set the CPU Freq Sampling rates
 
